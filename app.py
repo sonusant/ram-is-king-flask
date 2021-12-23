@@ -49,6 +49,7 @@ def submitted():
     king = King.query.all()
     return render_template ('submitted.html', king=king )
  
+ 
 
 if __name__=='__main__':
     app.run(debug=True)
